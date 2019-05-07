@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF58935B2282061F0073F47B /* alertify_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CF58935A2282061D0073F47B /* alertify_logo.png */; };
 		CF93A8D92281EEAA00910EB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF93A8D82281EEAA00910EB2 /* AppDelegate.swift */; };
 		CF93A8DB2281EEAA00910EB2 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF93A8DA2281EEAA00910EB2 /* FirstViewController.swift */; };
 		CF93A8DD2281EEAA00910EB2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF93A8DC2281EEAA00910EB2 /* SecondViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF58935A2282061D0073F47B /* alertify_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alertify_logo.png; sourceTree = "<group>"; };
 		CF93A8D52281EEAA00910EB2 /* AlertifyIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlertifyIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF93A8D82281EEAA00910EB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF93A8DA2281EEAA00910EB2 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 		CF93A8D72281EEAA00910EB2 /* AlertifyIOS */ = {
 			isa = PBXGroup;
 			children = (
+				CF58935A2282061D0073F47B /* alertify_logo.png */,
 				CF93A8D82281EEAA00910EB2 /* AppDelegate.swift */,
 				CF93A8DA2281EEAA00910EB2 /* FirstViewController.swift */,
 				CF93A8DC2281EEAA00910EB2 /* SecondViewController.swift */,
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF58935B2282061F0073F47B /* alertify_logo.png in Resources */,
 				CF93A8E52281EEAB00910EB2 /* LaunchScreen.storyboard in Resources */,
 				CF93A8E22281EEAB00910EB2 /* Assets.xcassets in Resources */,
 				CF93A8E02281EEAA00910EB2 /* Main.storyboard in Resources */,
