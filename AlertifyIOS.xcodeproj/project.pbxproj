@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CF58935B2282061F0073F47B /* alertify_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CF58935A2282061D0073F47B /* alertify_logo.png */; };
 		CF58935F22821E900073F47B /* baseline_home_black_18pt_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF58935C22821E8E0073F47B /* baseline_home_black_18pt_2x.png */; };
 		CF589366228220610073F47B /* baseline_warning_black_18pt_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF589362228220600073F47B /* baseline_warning_black_18pt_2x.png */; };
 		CF589367228220610073F47B /* baseline_settings_black_18pt_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF589363228220600073F47B /* baseline_settings_black_18pt_2x.png */; };
@@ -19,10 +18,11 @@
 		CF93A8E02281EEAA00910EB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF93A8DE2281EEAA00910EB2 /* Main.storyboard */; };
 		CF93A8E22281EEAB00910EB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF93A8E12281EEAB00910EB2 /* Assets.xcassets */; };
 		CF93A8E52281EEAB00910EB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF93A8E32281EEAB00910EB2 /* LaunchScreen.storyboard */; };
+		ED77456E228A425A006196AF /* alertify_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = ED77456D228A425A006196AF /* alertify_logo.png */; };
+		EDEEE66D228B8BE700CC560F /* Alerta.png in Resources */ = {isa = PBXBuildFile; fileRef = EDEEE66C228B8BE700CC560F /* Alerta.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CF58935A2282061D0073F47B /* alertify_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alertify_logo.png; sourceTree = "<group>"; };
 		CF58935C22821E8E0073F47B /* baseline_home_black_18pt_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseline_home_black_18pt_2x.png; sourceTree = "<group>"; };
 		CF589362228220600073F47B /* baseline_warning_black_18pt_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseline_warning_black_18pt_2x.png; sourceTree = "<group>"; };
 		CF589363228220600073F47B /* baseline_settings_black_18pt_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseline_settings_black_18pt_2x.png; sourceTree = "<group>"; };
@@ -36,6 +36,8 @@
 		CF93A8E12281EEAB00910EB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF93A8E42281EEAB00910EB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF93A8E62281EEAB00910EB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED77456D228A425A006196AF /* alertify_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alertify_logo.png; sourceTree = "<group>"; };
+		EDEEE66C228B8BE700CC560F /* Alerta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Alerta.png; path = ../../../Pictures/Alerta.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,12 +70,13 @@
 		CF93A8D72281EEAA00910EB2 /* AlertifyIOS */ = {
 			isa = PBXGroup;
 			children = (
+				EDEEE66C228B8BE700CC560F /* Alerta.png */,
+				ED77456D228A425A006196AF /* alertify_logo.png */,
 				CF589364228220610073F47B /* baseline_info_black_18pt_2x.png */,
 				CF589365228220610073F47B /* baseline_map_black_18pt_2x.png */,
 				CF589363228220600073F47B /* baseline_settings_black_18pt_2x.png */,
 				CF589362228220600073F47B /* baseline_warning_black_18pt_2x.png */,
 				CF58935C22821E8E0073F47B /* baseline_home_black_18pt_2x.png */,
-				CF58935A2282061D0073F47B /* alertify_logo.png */,
 				CF93A8D82281EEAA00910EB2 /* AppDelegate.swift */,
 				CF93A8DA2281EEAA00910EB2 /* FirstViewController.swift */,
 				CF93A8DC2281EEAA00910EB2 /* SecondViewController.swift */,
@@ -145,9 +148,10 @@
 			files = (
 				CF589366228220610073F47B /* baseline_warning_black_18pt_2x.png in Resources */,
 				CF589368228220610073F47B /* baseline_info_black_18pt_2x.png in Resources */,
-				CF58935B2282061F0073F47B /* alertify_logo.png in Resources */,
+				ED77456E228A425A006196AF /* alertify_logo.png in Resources */,
 				CF93A8E52281EEAB00910EB2 /* LaunchScreen.storyboard in Resources */,
 				CF58935F22821E900073F47B /* baseline_home_black_18pt_2x.png in Resources */,
+				EDEEE66D228B8BE700CC560F /* Alerta.png in Resources */,
 				CF589367228220610073F47B /* baseline_settings_black_18pt_2x.png in Resources */,
 				CF589369228220610073F47B /* baseline_map_black_18pt_2x.png in Resources */,
 				CF93A8E22281EEAB00910EB2 /* Assets.xcassets in Resources */,
