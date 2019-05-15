@@ -26,7 +26,7 @@
                                 </constraints>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Presiona para mandar una alerta" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="AS3-iM-Tub">
-                                <rect key="frame" x="16" y="127" width="382" height="126.5"/>
+                                <rect key="frame" x="16" y="127" width="382" height="53"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
@@ -36,7 +36,7 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="PQr-Ze-W5v" firstAttribute="trailing" secondItem="AS3-iM-Tub" secondAttribute="trailing" constant="16" id="0KZ-B6-EVk"/>
-                            <constraint firstItem="X5A-Mu-6hN" firstAttribute="top" secondItem="AS3-iM-Tub" secondAttribute="bottom" constant="134.5" id="Dcp-hB-P3R"/>
+                            <constraint firstItem="X5A-Mu-6hN" firstAttribute="top" secondItem="AS3-iM-Tub" secondAttribute="bottom" constant="208" id="Dcp-hB-P3R"/>
                             <constraint firstItem="X5A-Mu-6hN" firstAttribute="centerY" secondItem="tsR-hK-woN" secondAttribute="centerY" id="YKF-WR-2lj"/>
                             <constraint firstItem="AS3-iM-Tub" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" constant="16" id="cEj-Ai-Hen"/>
                             <constraint firstItem="AS3-iM-Tub" firstAttribute="top" secondItem="PQr-Ze-W5v" secondAttribute="top" constant="83" id="xY7-KO-1nx"/>
@@ -51,7 +51,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1218.4000000000001" y="-1038.5307346326838"/>
+            <point key="canvasLocation" x="-1218.840579710145" y="-1038.6160714285713"/>
         </scene>
         <!--Mapa-->
         <scene sceneID="wg7-f3-ORb">
@@ -283,19 +283,128 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vAT-Vp-obT">
-                                <rect key="frame" x="179" y="338" width="56" height="204"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ehJ-0l-omb">
+                                <rect key="frame" x="20" y="44" width="374" height="769"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Inicio" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kt8-MQ-MAK">
+                                        <rect key="frame" x="8" y="8" width="358" height="42"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="42" id="46g-Z0-zJO"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="358" id="U7v-pS-WMP"/>
+                                            <constraint firstAttribute="height" constant="42" id="VKb-6N-dfr"/>
+                                            <constraint firstAttribute="width" constant="358" id="x9q-jg-92U"/>
+                                        </constraints>
+                                        <color key="textColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Ajustes" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gif-ge-N2Q">
+                                        <rect key="frame" x="8" y="450.5" width="358" height="42"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="42" id="6IU-zZ-32R"/>
+                                            <constraint firstAttribute="width" constant="358" id="uhv-bt-YLz"/>
+                                        </constraints>
+                                        <color key="textColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Mapa" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZF3-zm-mTh">
+                                        <rect key="frame" x="8" y="658.5" width="358" height="42"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="358" id="6hp-fc-3Fu"/>
+                                            <constraint firstAttribute="height" constant="42" id="Z6S-oD-66C"/>
+                                        </constraints>
+                                        <color key="textColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" text="Para usar cualquiera de las funciones descritas, ncesitas habilitar la opción en Ajustes." textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lgy-4s-ckO">
+                                        <rect key="frame" x="8" y="58" width="358" height="76"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="358" id="UZn-51-dSt"/>
+                                            <constraint firstAttribute="height" constant="76" id="n6n-2c-jo1"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="puE-Hm-Hbd">
+                                        <rect key="frame" x="8" y="142" width="358" height="300.5"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="300.5" id="URh-KN-emw"/>
+                                            <constraint firstAttribute="width" constant="358" id="ywH-s2-Z6Q"/>
+                                        </constraints>
+                                        <mutableString key="text">1. Presiona dentro del área marcada para enviar una alerta.  2. Correrá un cronómetro al presionar el botón.  3. Después de 5 segundos, se enviarán los mensajes de ayuda.  4. Después de 8 segundos, podrás enviar el mensaje por WhatsApp.  5. Después de 12 segundos, se llamará a tu contacto principal o al 911.  6. Si se cancela la alerta antes de que termine y se enviaron los mensajes de alerta, se enviará uno de cancelación.</mutableString>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G7T-8z-qMc">
+                                        <rect key="frame" x="8" y="500.5" width="358" height="150"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="150" id="WB7-OH-9mu"/>
+                                            <constraint firstAttribute="width" constant="358" id="qYC-st-nyg"/>
+                                        </constraints>
+                                        <string key="text">1. En la sección de cuenta, podrás cerrar sesión.  2. En la sección de llamadas, podrás elegir llamar a alguien.  3. En la sección de mensajes, podrás definir si usarás las aplicaciones de mensajería, los mensajes de alerta y cancelación.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="1. Aquí podrás generar los reportes para que se muestren en el mapa." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="E0v-K3-Pkd">
+                                        <rect key="frame" x="8" y="708.5" width="358" height="49.5"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="49.5" id="IOH-bV-pRj"/>
+                                            <constraint firstAttribute="width" constant="358" id="NfR-OJ-bay"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="puE-Hm-Hbd" firstAttribute="leading" secondItem="ehJ-0l-omb" secondAttribute="leading" constant="8" id="20O-mH-KkT"/>
+                                    <constraint firstAttribute="bottom" secondItem="E0v-K3-Pkd" secondAttribute="bottom" constant="11" id="4TT-VH-VpJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="E0v-K3-Pkd" secondAttribute="trailing" constant="8" id="9Oc-tL-W2b"/>
+                                    <constraint firstItem="Gif-ge-N2Q" firstAttribute="leading" secondItem="ehJ-0l-omb" secondAttribute="leading" constant="8" id="9v4-9x-fzd"/>
+                                    <constraint firstItem="kt8-MQ-MAK" firstAttribute="top" secondItem="ehJ-0l-omb" secondAttribute="top" constant="8" id="COJ-T5-i6G"/>
+                                    <constraint firstItem="Gif-ge-N2Q" firstAttribute="centerX" secondItem="ehJ-0l-omb" secondAttribute="centerX" id="Cvi-Y1-6ax"/>
+                                    <constraint firstAttribute="trailing" secondItem="G7T-8z-qMc" secondAttribute="trailing" constant="8" id="ES0-f6-xod"/>
+                                    <constraint firstAttribute="trailing" secondItem="lgy-4s-ckO" secondAttribute="trailing" constant="8" id="EfZ-Qu-rp1"/>
+                                    <constraint firstItem="lgy-4s-ckO" firstAttribute="leading" secondItem="ehJ-0l-omb" secondAttribute="leading" constant="8" id="H1r-8Y-Ho8"/>
+                                    <constraint firstItem="puE-Hm-Hbd" firstAttribute="top" secondItem="lgy-4s-ckO" secondAttribute="bottom" constant="8" id="HUg-fd-uQo"/>
+                                    <constraint firstAttribute="trailing" secondItem="Gif-ge-N2Q" secondAttribute="trailing" constant="8" id="IEx-k8-jG2"/>
+                                    <constraint firstItem="G7T-8z-qMc" firstAttribute="top" secondItem="Gif-ge-N2Q" secondAttribute="bottom" constant="8" id="Qe8-vM-9XI"/>
+                                    <constraint firstItem="puE-Hm-Hbd" firstAttribute="top" secondItem="lgy-4s-ckO" secondAttribute="bottom" constant="8" id="Sdw-eq-g7S"/>
+                                    <constraint firstItem="puE-Hm-Hbd" firstAttribute="centerX" secondItem="ehJ-0l-omb" secondAttribute="centerX" id="Uuk-s0-d4b"/>
+                                    <constraint firstItem="E0v-K3-Pkd" firstAttribute="leading" secondItem="ehJ-0l-omb" secondAttribute="leading" constant="8" id="Vhm-r5-ZeU"/>
+                                    <constraint firstItem="ZF3-zm-mTh" firstAttribute="top" secondItem="G7T-8z-qMc" secondAttribute="bottom" constant="8" id="Wrc-f6-yP8"/>
+                                    <constraint firstItem="kt8-MQ-MAK" firstAttribute="centerX" secondItem="ehJ-0l-omb" secondAttribute="centerX" id="X56-yg-G9H"/>
+                                    <constraint firstItem="kt8-MQ-MAK" firstAttribute="leading" secondItem="ehJ-0l-omb" secondAttribute="leading" constant="8" id="XkU-ub-3FX"/>
+                                    <constraint firstItem="G7T-8z-qMc" firstAttribute="leading" secondItem="ehJ-0l-omb" secondAttribute="leading" constant="8" id="ZcN-4q-WOh"/>
+                                    <constraint firstItem="ZF3-zm-mTh" firstAttribute="centerX" secondItem="ehJ-0l-omb" secondAttribute="centerX" id="c64-6a-iGm"/>
+                                    <constraint firstItem="lgy-4s-ckO" firstAttribute="top" secondItem="kt8-MQ-MAK" secondAttribute="bottom" constant="8" id="fvU-8h-h6d"/>
+                                    <constraint firstItem="E0v-K3-Pkd" firstAttribute="top" secondItem="ZF3-zm-mTh" secondAttribute="bottom" constant="8" id="iA8-hL-fuV"/>
+                                    <constraint firstAttribute="trailing" secondItem="kt8-MQ-MAK" secondAttribute="trailing" constant="8" id="iny-xc-cM5"/>
+                                    <constraint firstItem="lgy-4s-ckO" firstAttribute="top" secondItem="kt8-MQ-MAK" secondAttribute="bottom" constant="8" id="j21-y3-Ua4"/>
+                                    <constraint firstItem="lgy-4s-ckO" firstAttribute="centerX" secondItem="ehJ-0l-omb" secondAttribute="centerX" id="mHe-6Y-JES"/>
+                                    <constraint firstAttribute="trailing" secondItem="ZF3-zm-mTh" secondAttribute="trailing" constant="8" id="mdm-Jt-nTZ"/>
+                                    <constraint firstItem="E0v-K3-Pkd" firstAttribute="centerX" secondItem="ehJ-0l-omb" secondAttribute="centerX" id="q6s-eY-fEs"/>
+                                    <constraint firstItem="ZF3-zm-mTh" firstAttribute="leading" secondItem="ehJ-0l-omb" secondAttribute="leading" constant="8" id="qIj-Gx-WlC"/>
+                                    <constraint firstItem="G7T-8z-qMc" firstAttribute="centerX" secondItem="ehJ-0l-omb" secondAttribute="centerX" id="qRu-OO-lG5"/>
+                                    <constraint firstItem="Gif-ge-N2Q" firstAttribute="top" secondItem="puE-Hm-Hbd" secondAttribute="bottom" constant="8" id="wek-f3-w0j"/>
+                                    <constraint firstAttribute="trailing" secondItem="puE-Hm-Hbd" secondAttribute="trailing" constant="8" id="zEV-t7-zjC"/>
+                                </constraints>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="vAT-Vp-obT" firstAttribute="top" secondItem="YLq-XO-2TB" secondAttribute="top" constant="294" id="C6p-yi-GMe"/>
-                            <constraint firstItem="vAT-Vp-obT" firstAttribute="leading" secondItem="YLq-XO-2TB" secondAttribute="leading" constant="179" id="V6J-3B-iQS"/>
-                            <constraint firstItem="YLq-XO-2TB" firstAttribute="trailing" secondItem="vAT-Vp-obT" secondAttribute="trailing" constant="179" id="evw-ao-qvm"/>
-                            <constraint firstItem="YLq-XO-2TB" firstAttribute="bottom" secondItem="vAT-Vp-obT" secondAttribute="bottom" constant="271" id="l07-Kq-sh9"/>
+                            <constraint firstItem="ehJ-0l-omb" firstAttribute="leading" secondItem="YLq-XO-2TB" secondAttribute="leading" constant="20" id="4Di-cw-i6f"/>
+                            <constraint firstItem="ehJ-0l-omb" firstAttribute="bottom" secondItem="YLq-XO-2TB" secondAttribute="bottom" id="5yC-hs-zgU"/>
+                            <constraint firstItem="YLq-XO-2TB" firstAttribute="trailing" secondItem="ehJ-0l-omb" secondAttribute="trailing" constant="20" id="AtD-SE-7Ys"/>
+                            <constraint firstItem="ehJ-0l-omb" firstAttribute="top" secondItem="YLq-XO-2TB" secondAttribute="top" id="Ru1-Ie-E7G"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="YLq-XO-2TB"/>
                     </view>
@@ -304,7 +413,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UZG-dQ-XqT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1218" y="1073"/>
+            <point key="canvasLocation" x="-1218.840579710145" y="1072.7678571428571"/>
         </scene>
         <!--Ajustes-->
         <scene sceneID="xZj-GG-tiZ">
