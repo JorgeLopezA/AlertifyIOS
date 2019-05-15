@@ -12,6 +12,8 @@
 		CF589367228220610073F47B /* baseline_settings_black_18pt_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF589363228220600073F47B /* baseline_settings_black_18pt_2x.png */; };
 		CF589368228220610073F47B /* baseline_info_black_18pt_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF589364228220610073F47B /* baseline_info_black_18pt_2x.png */; };
 		CF589369228220610073F47B /* baseline_map_black_18pt_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF589365228220610073F47B /* baseline_map_black_18pt_2x.png */; };
+		CF877573228BC354003164FB /* phone.png in Resources */ = {isa = PBXBuildFile; fileRef = CF877572228BC353003164FB /* phone.png */; };
+		CF8C3737228C5C0800F92A21 /* Alerta.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8C3736228C5C0800F92A21 /* Alerta.png */; };
 		CF93A8D92281EEAA00910EB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF93A8D82281EEAA00910EB2 /* AppDelegate.swift */; };
 		CF93A8DB2281EEAA00910EB2 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF93A8DA2281EEAA00910EB2 /* FirstViewController.swift */; };
 		CF93A8DD2281EEAA00910EB2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF93A8DC2281EEAA00910EB2 /* SecondViewController.swift */; };
@@ -19,7 +21,6 @@
 		CF93A8E22281EEAB00910EB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF93A8E12281EEAB00910EB2 /* Assets.xcassets */; };
 		CF93A8E52281EEAB00910EB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF93A8E32281EEAB00910EB2 /* LaunchScreen.storyboard */; };
 		ED77456E228A425A006196AF /* alertify_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = ED77456D228A425A006196AF /* alertify_logo.png */; };
-		EDEEE66D228B8BE700CC560F /* Alerta.png in Resources */ = {isa = PBXBuildFile; fileRef = EDEEE66C228B8BE700CC560F /* Alerta.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		CF589363228220600073F47B /* baseline_settings_black_18pt_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseline_settings_black_18pt_2x.png; sourceTree = "<group>"; };
 		CF589364228220610073F47B /* baseline_info_black_18pt_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseline_info_black_18pt_2x.png; sourceTree = "<group>"; };
 		CF589365228220610073F47B /* baseline_map_black_18pt_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseline_map_black_18pt_2x.png; sourceTree = "<group>"; };
+		CF877572228BC353003164FB /* phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phone.png; sourceTree = "<group>"; };
+		CF8C3736228C5C0800F92A21 /* Alerta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Alerta.png; sourceTree = "<group>"; };
 		CF93A8D52281EEAA00910EB2 /* AlertifyIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlertifyIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF93A8D82281EEAA00910EB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF93A8DA2281EEAA00910EB2 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -37,7 +40,6 @@
 		CF93A8E42281EEAB00910EB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF93A8E62281EEAB00910EB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED77456D228A425A006196AF /* alertify_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alertify_logo.png; sourceTree = "<group>"; };
-		EDEEE66C228B8BE700CC560F /* Alerta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Alerta.png; path = ../../../Pictures/Alerta.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +72,8 @@
 		CF93A8D72281EEAA00910EB2 /* AlertifyIOS */ = {
 			isa = PBXGroup;
 			children = (
-				EDEEE66C228B8BE700CC560F /* Alerta.png */,
+				CF8C3736228C5C0800F92A21 /* Alerta.png */,
+				CF877572228BC353003164FB /* phone.png */,
 				ED77456D228A425A006196AF /* alertify_logo.png */,
 				CF589364228220610073F47B /* baseline_info_black_18pt_2x.png */,
 				CF589365228220610073F47B /* baseline_map_black_18pt_2x.png */,
@@ -148,10 +151,11 @@
 			files = (
 				CF589366228220610073F47B /* baseline_warning_black_18pt_2x.png in Resources */,
 				CF589368228220610073F47B /* baseline_info_black_18pt_2x.png in Resources */,
+				CF877573228BC354003164FB /* phone.png in Resources */,
 				ED77456E228A425A006196AF /* alertify_logo.png in Resources */,
 				CF93A8E52281EEAB00910EB2 /* LaunchScreen.storyboard in Resources */,
+				CF8C3737228C5C0800F92A21 /* Alerta.png in Resources */,
 				CF58935F22821E900073F47B /* baseline_home_black_18pt_2x.png in Resources */,
-				EDEEE66D228B8BE700CC560F /* Alerta.png in Resources */,
 				CF589367228220610073F47B /* baseline_settings_black_18pt_2x.png in Resources */,
 				CF589369228220610073F47B /* baseline_map_black_18pt_2x.png in Resources */,
 				CF93A8E22281EEAB00910EB2 /* Assets.xcassets in Resources */,
